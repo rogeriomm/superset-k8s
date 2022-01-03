@@ -169,7 +169,7 @@ service:
   loadBalancerIP: null
 
 ingress:
-  enabled: false
+  enabled: true
   # ingressClassName: nginx
   annotations: {}
     # kubernetes.io/tls-acme: "true"
@@ -180,7 +180,7 @@ ingress:
   path: /
   pathType: ImplementationSpecific
   hosts:
-    - chart-example.local
+    - superset.worldl.xpt
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
